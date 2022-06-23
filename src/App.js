@@ -1,10 +1,15 @@
 import React from 'react'
-import Layout from './componen'
+import Layout from './components/layout'
+import Profile from './components/profile'
 
 function App() {
   return (
     <main>
-      <Layout />
+      <Layout>
+        <Profile />
+        <div>Reporsitories</div>
+        <div>Starreds</div>
+      </Layout>
     </main>
   )
 }
