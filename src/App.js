@@ -2,6 +2,7 @@ import React from 'react'
 import { ResetCSS } from './components/global/resetCSS'
 import Layout from './components/layout'
 import Profile from './components/profile'
+import Repositories from './components/repositories'
 
 const App = () => {
   return (
@@ -9,8 +10,7 @@ const App = () => {
       <ResetCSS />
       <Layout>
         <Profile />
-        <div>Reporsitories</div>
-        <div>Starreds</div>
+        <Repositories/>
       </Layout>
     </main>
   )
