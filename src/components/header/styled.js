@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
   padding: 4px;
 
   input {
+    margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
     width: 100%;

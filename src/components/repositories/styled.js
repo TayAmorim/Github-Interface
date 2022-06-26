@@ -46,3 +46,10 @@ export const WrapperTabPanel = styled(TabPanel)`
   }
 `
 WrapperTabPanel.tabsRole = 'TabPanel'
+
+export const WrapperList = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+`
